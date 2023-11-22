@@ -15,7 +15,9 @@ pygame.init()
 def draw():
     screen.fill((0, 0, 0))
     font = pygame.font.Font(None, 50)
-    text = font.render("Привет, Pygame!", 1, (100, 255, 100))
+    font2 = pygame.font.Font("Papyrus", 25)
+    text = font.render("Lorem ipsum", 1, (255, 204, 0))
+    text2 = font2.render('dolor sid amet', 1, ())
     text_x = width // 2 - text.get_width() // 2
     text_y = height // 2 - text.get_height() // 2
     text_w = text.get_width()
